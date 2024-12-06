@@ -1,5 +1,5 @@
 ## Basic_chatbot
-Implementation of a Basic Chatbot using NLP
+✨Implementation of a Basic Chatbot using NLP
 This project is a chatbot built using Natural Language Processing (NLP) techniques to handle user queries and provide meaningful responses. The chatbot is designed to simulate human-like conversations by processing input and returning appropriate responses based on predefined intents. This project is built with Flask as the backend framework, and it uses pattern matching for recognizing user input.
 
 
@@ -22,21 +22,21 @@ Logs user and bot interactions to a CSV file for further analysis.
 - **[How it Works](#how-it-works)**
 
 # Usage
-Once the environment is set up, you can run the chatbot locally by starting the Flask server:
+🎇Once the environment is set up, you can run the chatbot locally by starting the Flask server:
 
 python app.py
 
-After running the command, the Flask app will be hosted locally, and you can access it via:
+🎇After running the command, the Flask app will be hosted locally, and you can access it via:
 
 http://localhost:5000
 
 How to Interact:
 
-Open the application in your web browser.
+🎇Open the application in your web browser.
 
-Enter a message in the chatbot interface, and it will provide a response based on predefined patterns.
+🎇Enter a message in the chatbot interface, and it will provide a response based on predefined patterns.
 
-Check the chatbot_log.csv file for a log of all interactions.
+🎇Check the chatbot_log.csv file for a log of all interactions.
 
 # Folder structure:
 #### chatbot-nlp/
@@ -48,24 +48,25 @@ Check the chatbot_log.csv file for a log of all interactions.
 #### └── static/└── style.css 
     
 # Technologies Used
-Python: The main programming language.
+🎇Python: The main programming language.
 
-Flask: Lightweight web framework for the backend.
+🎇Flask: Lightweight web framework for the backend.
 
-JSON: Used for storing intents, patterns, and responses.
+🎇JSON: Used for storing intents, patterns, and responses.
 
-CSV: Used for logging chatbot interactions.
+🎇CSV: Used for logging chatbot interactions.
 
-HTML: Simple front-end interface for user interaction with the chatbot.
+🎇HTML: Simple front-end interface for user interaction with the chatbot.
 
 # How It Works
-**Intent Recognition:** The chatbot processes user input and checks if it matches any predefined patterns in the intents.json file.
+🎇**Intent Recognition:** The chatbot processes user input and checks if it matches any predefined patterns in the intents.json file.
 
-**Random Response Generation:** Once a match is found, the chatbot randomly selects a response from the corresponding set of responses and presents it to the user.
+🎇**Random Response Generation:** Once a match is found, the chatbot randomly selects a response from the corresponding set of responses and presents it to the user.
 
-**Logging Interactions:** Each interaction between the user and the bot is logged in a CSV file for later analysis.
+🎇**Logging Interactions:** Each interaction between the user and the bot is logged in a CSV file for later analysis.
 The chatbot doesn't rely on advanced NLP models like machine learning-based intent classifiers; instead, it uses simple pattern matching to recognize user input
 
+✔
 
 ![image](https://github.com/user-attachments/assets/fe045dc0-de9c-406a-ad46-a90886b5809c)
 
