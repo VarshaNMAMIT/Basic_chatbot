@@ -1,0 +1,31 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey there", "Hi there"],
+        "responses": ["Hello! How can I assist you today?", "Hi there!"]
+      },
+      {
+        "tag": "python_info",
+        "patterns": ["What is Python?", "Tell me about Python"],
+        "responses": ["Python is a high-level programming language known for its simplicity and versatility."]
+      },
+      {
+        "tag": "python_libraries",
+        "patterns": ["Can you recommend some Python libraries?", "Tell me some Python libraries"],
+        "responses": ["Popular Python libraries include Pandas, NumPy, Matplotlib, Flask, and Scikit-learn."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks"],
+        "responses": ["You're welcome!", "No problem!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["See you later!", "Goodbye!"]
+      }
+    ]
+  }
+  
+  
